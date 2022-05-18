@@ -1,0 +1,6 @@
+**/.ccls-cache/
+**/[Nn]otes.nt
+**/[Nn]otes.org
+**/*.exe
+**/*.gch
+build/

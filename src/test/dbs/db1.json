@@ -1,0 +1,19 @@
+{
+    "settings": [
+        {"name": "db1"}
+    ],
+
+    "values": [
+        {"nameone": [
+            "this is %values:1%",
+            "this is the second line of %values:1%"
+        ]},
+
+        {"  name2": [
+            "this is %values:2%",
+            "this is the second line of %values:2%"
+        ]},
+
+        {"third Name": []}
+    ]
+}

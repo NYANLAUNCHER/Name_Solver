@@ -1,0 +1,43 @@
+// the default config for ns
+{
+    "source_files": ["rules.json"],
+
+    // "<existing_func>": ["<alias>", "<alias1>"]
+    "aliases": {
+        "config": ["cfg"],
+        "find": ["fd"],
+        "add": [],
+        "remove": ["rm"],
+        "move": ["mv"],
+        "check": ["ck"],
+        "list": ["ls"],
+        "help": ["-h", "--help"],
+    },
+
+    "func": {
+        "config": {
+            "default_args": [],
+        },
+        "find": {
+            "default_args": [],
+        },
+        "add": {
+            "default_args": [],
+        },
+        "remove": {
+            "default_args": [],
+        },
+        "move": {
+            "default_args": [],
+        },
+        "check": {
+            "default_args": [],
+        },
+        "list": {
+            "default_args": [],
+        },
+        "help": {
+            "default_args": [],
+        },
+    },
+}

@@ -1,0 +1,5 @@
+
+this is the help file for Name Solver
+
+it is located at:
+"~/proj/repos/Name_Solver/src/test/runtime/doc"
