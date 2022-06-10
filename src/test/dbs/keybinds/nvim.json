@@ -1,12 +1,13 @@
 {
     "settings": {
-        "name": "rofi",
+        "name": "nvim",
     },
 
     "vars": {
+        "mapleader": " ",
     },
 
     "values": {
-        "fart": [],
+        "": [],
     }
 }

@@ -1,16 +1,22 @@
 {
-    "database": [
-        {"settings": [
-            {"name": "awesome"},
-        ]},
+    "settings": {
+        "name": "awesome",
+    },
 
-        {"template": [
-            {"keys": ""},
-        ]},
+    "vars": {
+        "modkey": "Mod4",
+    },
 
-        {"values": [
-            {"": [
-            ]}
-        ]}
-    ]
+    "values": {
+        {"section": "prefix = \"$modkey\"",
+        "description": "The keybinds in here all start with \"$modkey\".",
+        {
+            // "$" expands variable
+            /// if none found it just shows the literal string
+            "$modkey + m": [
+                "[min|max]imize client window."
+            ],
+         },
+        },
+    }
 }

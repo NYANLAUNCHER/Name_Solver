@@ -1,2 +1,20 @@
 {
+    "settings": {
+        "name": "sxhkd",
+    },
+
+    "values": {
+        "super + r": [
+            "rofi -show run"
+        ],
+        "super + d": [
+            "rofi -show drun"
+        ],
+        "super + w": [
+            "rofi -show window"
+        ],
+        "ctrl + alt + t": [
+            "kitty"
+        ],
+    }
 }
